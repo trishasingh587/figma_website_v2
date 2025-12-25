@@ -40,7 +40,7 @@ export function ProductDetail({ product, onBack }: ProductDetailProps) {
 
   const handleWhatsAppRequest = () => {
     const message = encodeURIComponent(`Hi, I'd like to request info about this product: ${product.name}`);
-    const phoneNumber = "971XXXXXXXXX"; // Replace with actual phone number
+    const phoneNumber = "919820548883"; // Replace with actual phone number
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
 
@@ -244,7 +244,7 @@ export function ProductDetail({ product, onBack }: ProductDetailProps) {
                 </div>
                 <div className="min-w-0">
                   <p className="text-xs text-gray-500">Phone Number</p>
-                  <p className="text-sm font-semibold text-gray-900">+91 98205 48883</p>
+                  <p className="text-sm font-semibold text-gray-900">+91 99999 99999</p>
                 </div>
               </div>
               
