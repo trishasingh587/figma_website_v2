@@ -197,7 +197,7 @@ export default function App() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">Phone Number</p>
-                  <p className="text-gray-900">+971-XXX-XXXX</p>
+                  <p className="text-gray-900">+91-8452-8595-48</p>
                 </div>
               </div>
               
