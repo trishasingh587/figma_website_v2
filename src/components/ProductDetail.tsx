@@ -244,7 +244,7 @@ export function ProductDetail({ product, onBack }: ProductDetailProps) {
                 </div>
                 <div className="min-w-0">
                   <p className="text-xs text-gray-500">Phone Number</p>
-                  <p className="text-sm font-semibold text-gray-900">+971-XXX-XXXX</p>
+                  <p className="text-sm font-semibold text-gray-900">+91 98205 48883</p>
                 </div>
               </div>
               
