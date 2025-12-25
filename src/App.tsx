@@ -43,7 +43,7 @@ export default function App() {
 
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent("Hi, I'd like to enquire about few medical equipment listed on your site");
-    const phoneNumber = "971XXXXXXXXX"; // Replace with actual phone number
+    const phoneNumber = "+919820548883"; // Replace with actual phone number
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
 
@@ -197,7 +197,7 @@ export default function App() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">Phone Number</p>
-                  <p className="text-gray-900">+91-8452-8595-48</p>
+                  <p className="text-gray-900">+919820548883</p>
                 </div>
               </div>
               
