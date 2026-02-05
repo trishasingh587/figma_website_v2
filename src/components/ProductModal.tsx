@@ -29,7 +29,7 @@ export function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
 
   const handleWhatsAppRequest = () => {
     const message = encodeURIComponent(`Hi, I'd like to enquire about: ${product.name}`);
-    const phoneNumber = "971XXXXXXXXX";
+    const phoneNumber = "919820548883"; // Replace with your actual phone number in international format without '+' or dashes
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
 
